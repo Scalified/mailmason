@@ -1,12 +1,12 @@
 This is an invoice for your purchase on {{ purchase_date }}. Please submit payment by {{ due_date }}
 
-[Product Name] ( https://example.com )
+[Acme] ( https://example.com )
 
 ************
 Hi {{name}},
 ************
 
-Thanks for using [Product Name]. This is an invoice for your recent purchase.
+Thanks for using [Acme]. This is an invoice for your recent purchase.
 
 Amount Due: {{total}}
 
@@ -38,15 +38,43 @@ Total
 If you have any questions about this invoice, simply reply to this email or reach out to our support team ( {{ support_url }} ) for help.
 
 Cheers,
-The [Product Name] Team
+The [Acme] Team
+
+--------------------
+You may also like...
+--------------------
+
+{{ item_one_name }}
+-------------------
+
+(  )
+
+{{ item_two_name }}
+-------------------
+
+(  )
 
 If you’re having trouble with the button above, copy and paste the URL below into your web browser.
 
 {{action_url}}
 
-© 2018 [Product Name]. All rights reserved.
+Facebook ( # )
 
-[Company Name, LLC]
+Twitter ( # )
+
+Instagram ( # )
+
+LinkedIn ( # )
+
+dribbble ( # )
+
+YouTube ( # )
+
+Pinterest ( # )
+
+© 2018 [Acme]. All rights reserved.
+
+[Acme, LLC]
 
 1234 Street Rd.
 

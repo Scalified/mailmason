@@ -1,6 +1,6 @@
 This is example text for the preheader set via the YAML front-matter for each email.
 
-[Product Name] ( https://example.com )
+[Acme] ( https://example.com )
 
 ***************************
 Escaped Handlebars Brackets
@@ -72,18 +72,18 @@ Option List
 
 For the most part, option lists are just like attribute lists. They just use line breaks to create some separation between the items.
 
-Restart your trial ( {{ trial_extension_url }} ) - If you didn't get a chance to fully try out the product or need a little more time to evaluate, just let us know. Simply reply to this email and we'll extend your trial period.
+Restart your trial ( {{ trial_extension_url }} ) - If you didn't get a chance to fully try out the product or need a little more time to evaluate, just let us know.  Simply reply to this email and we'll extend your trial period.
 
-Share feedback ( {{ feedback_url }} ) - If [Product Name] isn't right for you, let us know what you were looking for and we might be able to suggest some alternatives that might be a better fit.
+Share feedback ( {{ feedback_url }} ) - If [Acme] isn't right for you, let us know what you were looking for and we might be able to suggest some alternatives that might be a better fit.
 
 ***************
 Example Closing
 ***************
 
 Thanks,
-[Sender Name] and the [Product Name] Team
+[Jane from Acme] and the [Acme] Team
 
-P.S. Need help getting started? Check out our help documentation. Or, just reply to this email with any questions or issues you have. The [Product Name] support team is always excited to help you.
+P.S. Need help getting started? Check out our help documentation. Or, just reply to this email with any questions or issues you have. The [Acme] support team is always excited to help you.
 
 *************
 Discount Code
@@ -101,6 +101,20 @@ Use this discount now... ( http://example.com )
 Related Items
 *************
 
+--------------------
+You may also like...
+--------------------
+
+{{ item_one_name }}
+-------------------
+
+(  )
+
+{{ item_two_name }}
+-------------------
+
+(  )
+
 ********
 Sub-text
 ********
@@ -111,9 +125,23 @@ If you’re having trouble clicking the confirm account button, copy and paste t
 
 {{action_url}} ( {{ action_url }} )
 
-© 2018 [Product Name]. All rights reserved.
+Facebook ( # )
 
-[Company Name, LLC]
+Twitter ( # )
+
+Instagram ( # )
+
+LinkedIn ( # )
+
+dribbble ( # )
+
+YouTube ( # )
+
+Pinterest ( # )
+
+© 2018 [Acme]. All rights reserved.
+
+[Acme, LLC]
 
 1234 Street Rd.
 

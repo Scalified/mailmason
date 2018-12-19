@@ -68,6 +68,7 @@ module.exports = function(grunt) {
         layoutdir: path.layouts,
         partials: path.partials,
         flatten: true,
+        support_email: "<%= config.strings.support_email %>",
         sender_name: "<%= config.strings.sender_name %>",
         product_name: "<%= config.strings.product_name %>",
         product_url: "<%= config.strings.product_url %>",

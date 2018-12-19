@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Please pay {{ total }} due by {{ due_date }}</title>
+    <title>Welcome to SweetCV, {{name}}!</title>
     <!-- 
     The style block is collapsed on page load to save you some scrolling.
     Postmark automatically inlines all CSS properties for maximum email client 
@@ -393,7 +393,7 @@
     </style>
   </head>
   <body>
-    <span class="preheader">This is an invoice for your purchase on {{ purchase_date }}. Please submit payment by {{ due_date }}</span>
+    <span class="preheader">Thanks for trying out SweetCV. We’ve pulled together some information and resources to help you get started.</span>
     <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
       <tr>
         <td align="center">
@@ -412,22 +412,9 @@
                   <!-- Body content -->
                   <tr>
                     <td class="content-cell">
-                      <h1>Hi {{name}},</h1>
-                      <p>Thanks for using SweetCV. This is an invoice for your recent purchase.</p>
-                      <table class="attribute-list" width="100%" cellpadding="0" cellspacing="0">
-                        <tr>
-                          <td class="attribute-list-container">
-                            <table width="100%" cellpadding="0" cellspacing="0">
-                              <tr>
-                                <td class="attribute-list-item"><strong>Amount Due:</strong> {{total}}</td>
-                              </tr>
-                              <tr>
-                                <td class="attribute-list-item"><strong>Due By:</strong> {{due_date}}</td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
+                      <h1>Welcome, ${data.user.displayName}!</h1>
+                      <p>Thanks for trying SweetCV. We’re thrilled to have you on board.</p>
+                      <p>To get the most out of SweetCV, do this primary next step:</p>
                       <!-- Action -->
                       <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
@@ -440,7 +427,7 @@
                                   <table border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                       <td>
-                                        <a href="{{action_url}}" class="button button--green" target="_blank">Pay this Invoice</a>
+                                        <a href="${data.verificationUrl}" class="button button--" target="_blank">Verify Your Email</a>
                                       </td>
                                     </tr>
                                   </table>
@@ -450,73 +437,15 @@
                           </td>
                         </tr>
                       </table>
-                      <table class="purchase" width="100%" cellpadding="0" cellspacing="0">
-                        <tr>
-                          <td>
-                            <h3>{{invoice_id}}</h3></td>
-                          <td>
-                            <h3 class="align-right">{{date}}</h3></td>
-                        </tr>
-                        <tr>
-                          <td colspan="2">
-                            <table class="purchase_content" width="100%" cellpadding="0" cellspacing="0">
-                              <tr>
-                                <th class="purchase_heading">
-                                  <p>Description</p>
-                                </th>
-                                <th class="purchase_heading">
-                                  <p class="align-right">Amount</p>
-                                </th>
-                              </tr>
-                              {{#each invoice_details}}
-                              <tr>
-                                <td width="80%" class="purchase_item">{{description}}</td>
-                                <td class="align-right" width="20%" class="purchase_item">{{amount}}</td>
-                              </tr>
-                              {{/each}}
-                              <tr>
-                                <td width="80%" class="purchase_footer" valign="middle">
-                                  <p class="purchase_total purchase_total--label">Total</p>
-                                </td>
-                                <td width="20%" class="purchase_footer" valign="middle">
-                                  <p class="purchase_total">{{total}}</p>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                      <p>If you have any questions about this invoice, simply reply to this email or reach out to our <a href="{{support_url}}">support team</a> for help.</p>
-                      <p>Cheers,
-                        <br>The SweetCV Team</p>
-                      <!-- Related Items -->
-                      <table class="related" align="center" width="100%" cellpadding="0" cellspacing="0">
-                        <tr>
-                          <td align="center" colspan="2">
-                            <h2 class="related_heading">You may also like...</h2>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="related_item" align="center">
-                            <a href="">
-                              <img class="related_item-thumb" src="../src/images/related_placeholder.png" width="180">
-                              <h4 class="related_item-title">{{ item_one_name }}</h4>
-                            </a>
-                          </td>
-                          <td class="related_item" align="center">
-                            <a href="">
-                              <img class="related_item-thumb" src="../src/images/related_placeholder.png" width="180">
-                              <h4 class="related_item-title">{{ item_two_name }}</h4>
-                            </a>
-                          </td>
-                        </tr>
-                      </table>
+                      <p>If you're having trouble getting started, feel free to <a href="mailto:support@sweetcv.com">email our customer success team</a>.</p>
+                      <p>Thanks,
+                        <br>SweetCV Team</p>
                       <!-- Sub copy -->
                       <table class="body-sub">
                         <tr>
                           <td>
                             <p class="sub">If you’re having trouble with the button above, copy and paste the URL below into your web browser.</p>
-                            <p class="sub"></p>
+                            <p class="sub">${data.verificationUrl}</p>
                           </td>
                         </tr>
                       </table>

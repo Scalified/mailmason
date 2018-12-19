@@ -45,7 +45,8 @@ td {
 /* Masthead ----------------------- */
 .email-masthead {
   padding: 25px 0;
-  text-align: center; }
+  text-align: center;
+  background-color: #2196f3; }
   .email-masthead_logo {
     width: 94px; }
   .email-masthead_name {

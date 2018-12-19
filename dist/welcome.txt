@@ -1,14 +1,14 @@
-Thanks for trying out [Acme]. We’ve pulled together some information and resources to help you get started.
+Thanks for trying out SweetCV. We’ve pulled together some information and resources to help you get started.
 
-[Acme] ( https://example.com )
+SweetCV ( https://sweetcv.com )
 
 ******************
 Welcome, {{name}}!
 ******************
 
-Thanks for trying [Acme]. We’re thrilled to have you on board.
+Thanks for trying SweetCV. We’re thrilled to have you on board.
 
-To get the most out of [Acme], do this primary next step:
+To get the most out of SweetCV, do this primary next step:
 
 Do this Next ( {{ action_url }} )
 
@@ -27,32 +27,22 @@ Trial End Date: {{trial_end_date}}
 If you have any questions, feel free to email our customer success team ( {{ support_email }} ). (We're lightning quick at replying.) We also offer live chat ( {{ live_chat_url }} ) during business hours.
 
 Thanks,
-[Jane from Acme] and the [Acme] Team
+[Sergey from SweetCV] and the SweetCV Team
 
-P.S. Need immediate help getting started? Check out our help documentation ( {{ help_url }} ). Or, just reply to this email, the [Acme] support team is always ready to help!
+P.S. Need immediate help getting started? Check out our help documentation ( {{ help_url }} ). Or, just reply to this email, the SweetCV support team is always ready to help!
 
 If you’re having trouble with the button above, copy and paste the URL below into your web browser.
 
-{{action_url}}
+Facebook ( https://www.facebook.com/sweetcvcom )
 
-Facebook ( # )
+Twitter ( https://twitter.com/sweet_cv )
 
-Twitter ( # )
-
-Instagram ( # )
-
-LinkedIn ( # )
-
-dribbble ( # )
-
-YouTube ( # )
-
-Pinterest ( # )
-
-© 2018 [Acme]. All rights reserved.
+© 2018 SweetCV. All rights reserved.
 
 [Acme, LLC]
 
 1234 Street Rd.
 
 Suite 1234
+
+-->

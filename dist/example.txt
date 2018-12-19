@@ -1,6 +1,6 @@
 This is example text for the preheader set via the YAML front-matter for each email.
 
-[Acme] ( https://example.com )
+SweetCV ( https://sweetcv.com )
 
 ***************************
 Escaped Handlebars Brackets
@@ -74,16 +74,16 @@ For the most part, option lists are just like attribute lists. They just use lin
 
 Restart your trial ( {{ trial_extension_url }} ) - If you didn't get a chance to fully try out the product or need a little more time to evaluate, just let us know.  Simply reply to this email and we'll extend your trial period.
 
-Share feedback ( {{ feedback_url }} ) - If [Acme] isn't right for you, let us know what you were looking for and we might be able to suggest some alternatives that might be a better fit.
+Share feedback ( {{ feedback_url }} ) - If SweetCV isn't right for you, let us know what you were looking for and we might be able to suggest some alternatives that might be a better fit.
 
 ***************
 Example Closing
 ***************
 
 Thanks,
-[Jane from Acme] and the [Acme] Team
+[Sergey from SweetCV] and the SweetCV Team
 
-P.S. Need help getting started? Check out our help documentation. Or, just reply to this email with any questions or issues you have. The [Acme] support team is always excited to help you.
+P.S. Need help getting started? Check out our help documentation. Or, just reply to this email with any questions or issues you have. The SweetCV support team is always excited to help you.
 
 *************
 Discount Code
@@ -125,24 +125,16 @@ If you’re having trouble clicking the confirm account button, copy and paste t
 
 {{action_url}} ( {{ action_url }} )
 
-Facebook ( # )
+Facebook ( https://www.facebook.com/sweetcvcom )
 
-Twitter ( # )
+Twitter ( https://twitter.com/sweet_cv )
 
-Instagram ( # )
-
-LinkedIn ( # )
-
-dribbble ( # )
-
-YouTube ( # )
-
-Pinterest ( # )
-
-© 2018 [Acme]. All rights reserved.
+© 2018 SweetCV. All rights reserved.
 
 [Acme, LLC]
 
 1234 Street Rd.
 
 Suite 1234
+
+-->

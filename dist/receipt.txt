@@ -1,12 +1,12 @@
 This is a receipt for your recent purchase on {{ purchase_date }}. No payment is due with this receipt.
 
-[Acme] ( https://example.com )
+SweetCV ( https://sweetcv.com )
 
 ************
 Hi {{name}},
 ************
 
-Thanks for using [Acme]. This email is the receipt for your purchase. No payment is due.
+Thanks for using SweetCV. This email is the receipt for your purchase. No payment is due.
 
 This purchase will appear as “[Acme Affiliate Corporation, LLC]” on your credit card statement for your {{credit_card_brand}} ending in {{credit_card_last_four}}. Need to update your payment information ( {{ billing_url }} )?
 
@@ -42,7 +42,7 @@ Total
 If you have any questions about this receipt, simply reply to this email or reach out to our support team ( {{ support_url }} ) for help.
 
 Cheers,
-The [Acme] Team
+The SweetCV Team
 
 Download as PDF ( {{ action_url }} )
 
@@ -64,24 +64,16 @@ Need a printable copy for your records? You can download a PDF version ( {{ acti
 
 Moved recently? Have a new credit card? You can easily update your billing information ( {{ billing_url }} ).
 
-Facebook ( # )
+Facebook ( https://www.facebook.com/sweetcvcom )
 
-Twitter ( # )
+Twitter ( https://twitter.com/sweet_cv )
 
-Instagram ( # )
-
-LinkedIn ( # )
-
-dribbble ( # )
-
-YouTube ( # )
-
-Pinterest ( # )
-
-© 2018 [Acme]. All rights reserved.
+© 2018 SweetCV. All rights reserved.
 
 [Acme, LLC]
 
 1234 Street Rd.
 
 Suite 1234
+
+-->

@@ -1,12 +1,12 @@
 This is an invoice for your purchase on {{ purchase_date }}. Please submit payment by {{ due_date }}
 
-[Acme] ( https://example.com )
+SweetCV ( https://sweetcv.com )
 
 ************
 Hi {{name}},
 ************
 
-Thanks for using [Acme]. This is an invoice for your recent purchase.
+Thanks for using SweetCV. This is an invoice for your recent purchase.
 
 Amount Due: {{total}}
 
@@ -38,7 +38,7 @@ Total
 If you have any questions about this invoice, simply reply to this email or reach out to our support team ( {{ support_url }} ) for help.
 
 Cheers,
-The [Acme] Team
+The SweetCV Team
 
 --------------------
 You may also like...
@@ -56,26 +56,16 @@ You may also like...
 
 If you’re having trouble with the button above, copy and paste the URL below into your web browser.
 
-{{action_url}}
+Facebook ( https://www.facebook.com/sweetcvcom )
 
-Facebook ( # )
+Twitter ( https://twitter.com/sweet_cv )
 
-Twitter ( # )
-
-Instagram ( # )
-
-LinkedIn ( # )
-
-dribbble ( # )
-
-YouTube ( # )
-
-Pinterest ( # )
-
-© 2018 [Acme]. All rights reserved.
+© 2018 SweetCV. All rights reserved.
 
 [Acme, LLC]
 
 1234 Street Rd.
 
 Suite 1234
+
+-->

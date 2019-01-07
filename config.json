@@ -1,0 +1,48 @@
+{
+  "postmark": {
+    "from": "jane@example.com",
+    "to": "jon@example.com",
+    "subject": "Test Email"
+  },
+  "strings": {
+    "sender_name": "[Sergey from SweetCV]",
+    "product_name": "SweetCV",
+    "product_url": "https://sweetcv.com",
+    "credit_card_statement_name": "SweetCV, LLC",
+    "formal_company_name": "SweetCV, LLC",
+    "address_line_1": "1234 Street Rd.",
+    "address_line_2": "Suite 1234",
+    "city": "Cityville",
+    "state": "ST",
+    "country": "United States",
+    "phone": "123-456-7890",
+    "litmus_email": "something@litmus.com",
+    "support_email": "support@sweetcv.com"
+  },
+  "images": {
+    "use_images": true,
+    "images_url": "/email-images/",
+    "logo_file": "logo-dark-bg.png",
+    "logo_width": "186",
+    "use_social_circles": true,
+    "twitter_url": "https://twitter.com/sweet_cv",
+    "facebook_url": "https://www.facebook.com/sweetcvcom",
+    "pinterest_url": "",
+    "instagram_url": "",
+    "google_plus_url": "",
+    "youtube_url": "",
+    "linkedin_url": "#",
+    "dribbble_url": ""
+  },
+  "ftp": {
+    "host": "12.34.56.79",
+    "port": "21",
+    "src": "src/images",
+    "dest": "/example/images"
+  },
+  "s3": {
+    "bucket": "",
+    "region": "",
+    "overwrite": true
+  }
+}

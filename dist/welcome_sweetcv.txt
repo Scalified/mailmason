@@ -2,15 +2,15 @@ Thanks for trying out SweetCV. We’ve pulled together some information and reso
 
 SweetCV ( https://sweetcv.com )
 
-**********************************
-Welcome, ${data.user.displayName}!
-**********************************
+******************************
+Welcome, {{user.displayName}}!
+******************************
 
-Thanks for trying SweetCV. We’re thrilled to have you on board.
+Thanks for trying SweetCV. We’re thrilled to have you on board!
 
-To get the most out of SweetCV, do this primary next step:
+To get the most out of SweetCV, please verify your email using the button below:
 
-Verify Your Email ( %24%7Bdata.verificationUrl%7D )
+Verify Your Email ( {{ verificationUrl }} )
 
 If you're having trouble getting started, feel free to email our customer success team ( support@sweetcv.com ).
 
@@ -19,18 +19,12 @@ SweetCV Team
 
 If you’re having trouble with the button above, copy and paste the URL below into your web browser.
 
-${data.verificationUrl}
+{{verificationUrl}}
 
 Facebook ( https://www.facebook.com/sweetcvcom )
 
 Twitter ( https://twitter.com/sweet_cv )
 
-© 2018 SweetCV. All rights reserved.
+LinkedIn ( # )
 
-[Acme, LLC]
-
-1234 Street Rd.
-
-Suite 1234
-
--->
+© 2019 SweetCV. All rights reserved.

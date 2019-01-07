@@ -53,7 +53,7 @@
 }
 
 .body-action {
-  @include table-scale($margin: 30px auto);
+  @include table-scale($padding-top: 15px, $padding-bottom: 30px);
   text-align: center;
 }
 .body-sub {
@@ -93,7 +93,7 @@
 /* Related Items ------------------------------ */
 
 .related {
-  @include table-scale($padding: 25px 0 0 0);
+  @include table-scale($padding-top: 25px);
 
   // Items
   &_item {
@@ -121,7 +121,7 @@
 /* Discount Code ------------------------------ */
 
 .discount {
-  @include table-scale($padding: 24px);
+  @include table-scale($padding-top: 24px, $padding-right: 24px, $padding-bottom: 24px, $padding-left: 24px);
 
   background-color: $c-slate-lighter;
   border: 2px dashed $c-slate-light;
@@ -141,12 +141,13 @@
   width: auto;
 
   td {
-    padding: 0;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    padding-left: 8px;
     width: auto;
   }
   &_icon {
-    height: 20px;
-    margin: 0 8px 10px 8px;
+    height: 25px;
     padding: 0;
   }
 }
@@ -155,10 +156,10 @@
 /* Data table ------------------------------ */
 
 .purchase {
-  @include table-scale($padding: 35px 0);
+  @include table-scale($padding-top: 35px, $padding-bottom: 35px);
 
   &_content {
-    @include table-scale($padding: 25px 0 0 0);
+    @include table-scale($padding-top: 25px);
   }
 
   // Items

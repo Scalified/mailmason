@@ -10,7 +10,10 @@ body {
   line-height: 1.4;
   background-color: #F2F4F6;
   color: #74787E;
-  -webkit-text-size-adjust: none; }
+  -webkit-text-size-adjust: none;
+  padding: 0;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: inherit; }
 
 p, ul, ol, blockquote {
   line-height: 1.4;
@@ -21,12 +24,45 @@ a {
   a img {
     border: none; }
 
+table th {
+  margin: 0 !important;
+  padding: 0 !important;
+  vertical-align: top;
+  font-weight: normal;
+  font-size: inherit; }
+
 td {
   word-break: break-word; }
+
+/*Yahoo paragraph fix*/
+p {
+  margin: 1em 0; }
+
+/*This resolves the Outlook 07, 10, and Gmail td padding issue fix*/
+table td {
+  border-collapse: collapse; }
+
+/*viewport width scaling for all devices*/
+@-ms-viewport {
+  width: device-width; }
+
+/*This resolves the issue when iphone puts links on dates, etc.*/
+.appleLinks {
+  color: inherit;
+  text-decoration: none; }
+
+.appleLinks a {
+  color: inherit;
+  text-decoration: none; }
+
+a[href^="x-apple-data-detectors:"] {
+  color: inherit;
+  text-decoration: inherit; }
 
 /* Layout ------------------------------ */
 .email-wrapper {
   width: 100%;
+  min-width: 100%;
   margin: 0;
   padding: 0;
   -premailer-width: 100%;
@@ -36,6 +72,7 @@ td {
 
 .email-content {
   width: 100%;
+  min-width: 100%;
   margin: 0;
   padding: 0;
   -premailer-width: 100%;
@@ -59,6 +96,7 @@ td {
 /* Body ------------------------------ */
 .email-body {
   width: 100%;
+  min-width: 100%;
   margin: 0;
   padding: 0;
   -premailer-width: 100%;
@@ -69,6 +107,7 @@ td {
   background-color: #FFFFFF; }
   .email-body_inner {
     width: 570px;
+    min-width: 570px;
     margin: 0 auto;
     padding: 0;
     -premailer-width: 570px;
@@ -78,6 +117,7 @@ td {
 
 .email-footer {
   width: 570px;
+  min-width: 570px;
   margin: 0 auto;
   padding: 0;
   -premailer-width: 570px;
@@ -89,8 +129,11 @@ td {
 
 .body-action {
   width: 100%;
-  margin: 30px auto;
+  min-width: 100%;
+  margin: 0;
   padding: 0;
+  padding-top: 15px;
+  padding-bottom: 30px;
   -premailer-width: 100%;
   -premailer-cellpadding: 0;
   -premailer-cellspacing: 0;
@@ -127,8 +170,10 @@ td {
 /* Related Items ------------------------------ */
 .related {
   width: 100%;
+  min-width: 100%;
   margin: 0;
-  padding: 25px 0 0 0;
+  padding: 0;
+  padding-top: 25px;
   -premailer-width: 100%;
   -premailer-cellpadding: 0;
   -premailer-cellspacing: 0; }
@@ -151,8 +196,13 @@ td {
 /* Discount Code ------------------------------ */
 .discount {
   width: 100%;
+  min-width: 100%;
   margin: 0;
-  padding: 24px;
+  padding: 0;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
   -premailer-width: 100%;
   -premailer-cellpadding: 0;
   -premailer-cellspacing: 0;
@@ -168,25 +218,31 @@ td {
 .social {
   width: auto; }
   .social td {
-    padding: 0;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    padding-left: 8px;
     width: auto; }
   .social_icon {
-    height: 20px;
-    margin: 0 8px 10px 8px;
+    height: 25px;
     padding: 0; }
 
 /* Data table ------------------------------ */
 .purchase {
   width: 100%;
+  min-width: 100%;
   margin: 0;
-  padding: 35px 0;
+  padding: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
   -premailer-width: 100%;
   -premailer-cellpadding: 0;
   -premailer-cellspacing: 0; }
   .purchase_content {
     width: 100%;
+    min-width: 100%;
     margin: 0;
-    padding: 25px 0 0 0;
+    padding: 0;
+    padding-top: 25px;
     -premailer-width: 100%;
     -premailer-cellpadding: 0;
     -premailer-cellspacing: 0; }

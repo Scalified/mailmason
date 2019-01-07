@@ -16,7 +16,7 @@
     "litmus": "grunt litmus",
     "flood": "grunt flood",
     "build": "grunt",
-    "juice": "juice"
+    "juice": "juice --options-file juice-opts.json"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

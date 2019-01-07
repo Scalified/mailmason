@@ -8,7 +8,7 @@ Hi {{name}},
 
 Thanks for using SweetCV. This email is the receipt for your purchase. No payment is due.
 
-This purchase will appear as “[Acme Affiliate Corporation, LLC]” on your credit card statement for your {{credit_card_brand}} ending in {{credit_card_last_four}}. Need to update your payment information ( {{ billing_url }} )?
+This purchase will appear as “SweetCV, LLC” on your credit card statement for your {{credit_card_brand}} ending in {{credit_card_last_four}}. Need to update your payment information ( {{ billing_url }} )?
 
 ***************************
 10% off your next purchase!
@@ -68,12 +68,6 @@ Facebook ( https://www.facebook.com/sweetcvcom )
 
 Twitter ( https://twitter.com/sweet_cv )
 
-© 2018 SweetCV. All rights reserved.
+LinkedIn ( # )
 
-[Acme, LLC]
-
-1234 Street Rd.
-
-Suite 1234
-
--->
+© 2019 SweetCV. All rights reserved.

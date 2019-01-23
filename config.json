@@ -16,11 +16,12 @@
     "state": "ST",
     "country": "United States",
     "phone": "123-456-7890",
-    "litmus_email": "something@litmus.com"
+    "litmus_email": "something@litmus.com",
+    "support_email": "support@sweetcv.com"
   },
   "images": {
     "use_images": true,
-    "images_url": "https://sweetcv.com/email-images/",
+    "images_url": "/email-images/",
     "logo_file": "logo-dark-bg.png",
     "logo_width": "186",
     "use_social_circles": true,

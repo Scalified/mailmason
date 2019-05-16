@@ -21,7 +21,7 @@
   },
   "images": {
     "use_images": true,
-    "images_url": "/email-images/",
+    "images_url": "/assets/email-images/",
     "logo_file": "logo-dark-bg.png",
     "logo_width": "186",
     "use_social_circles": true,

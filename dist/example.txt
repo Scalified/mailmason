@@ -125,10 +125,10 @@ If you’re having trouble clicking the confirm account button, copy and paste t
 
 {{action_url}} ( {{ action_url }} )
 
-Facebook ( https://www.facebook.com/sweetcvcom )
+Facebook ( https://www.facebook.com/sweetcv.en )
 
 Twitter ( https://twitter.com/sweet_cv )
 
-LinkedIn ( # )
+LinkedIn ( https://www.linkedin.com/company/sweetcv )
 
 © 2019 SweetCV. All rights reserved.

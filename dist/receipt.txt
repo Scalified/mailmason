@@ -64,10 +64,10 @@ Need a printable copy for your records? You can download a PDF version ( {{ acti
 
 Moved recently? Have a new credit card? You can easily update your billing information ( {{ billing_url }} ).
 
-Facebook ( https://www.facebook.com/sweetcvcom )
+Facebook ( https://www.facebook.com/sweetcv.en )
 
 Twitter ( https://twitter.com/sweet_cv )
 
-LinkedIn ( # )
+LinkedIn ( https://www.linkedin.com/company/sweetcv )
 
 © 2019 SweetCV. All rights reserved.

@@ -1,0 +1,49 @@
+---
+layout: layout.hbs
+subject: "Ласкаво просимо у <%= product_name %>, {{user.displayName}}!"
+preheader: "Дякуємо, що вирішили спробувати <%= product_name %>. Будь ласка, ознайомтесь з інструкціями щоб підтвердити реєстрацію."
+---
+<table class="email-content" width="100%" cellpadding="0" cellspacing="0">
+
+  {{> masthead site_url="{{siteUrl}}"}}
+
+  <!-- Email Body -->
+  <tr>
+    <td class="email-body" width="100%" cellpadding="0" cellspacing="0">
+      <table class="email-body_inner" align="center" width="570" cellpadding="0" cellspacing="0">
+
+        <!-- Body content -->
+        <tr>
+          <td class="content-cell">
+
+            <h1>Ласкаво просимо, \{{user.displayName}}!</h1>
+            <p>Дякуємо, що вирішили скористатися {{product_name}}. Впевнені наш сервіс допоможе вам підготувати бездоганне резюме!</p>
+
+            <p>Для того щоб продовжити реєстрацію, будь ласка, підтвердіть свій Email:</p>
+
+            <!-- Action -->
+            <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="center">
+                  {{> button label="Підтвердити мій Email" target_url="{{verificationUrl}}" }}
+                </td>
+              </tr>
+            </table>
+
+            <p>Якщо у вас виникли складнощі при реєстрації або в процесі використання сервісу, звертайтеся до нас за допомогою за адресою <a href="mailto:{{support_email}}">{{support_email}}</a></p>
+
+            <p>Чудового вам дня!</p>
+
+            <p>Команда {{product_name}}</p>
+
+            {{> button_trouble_ua action_url="{{verificationUrl}}" }}
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  {{> footer_ua site_url="{{siteUrl}}"}}
+
+</table>

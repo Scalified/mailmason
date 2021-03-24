@@ -27,4 +27,4 @@ Twitter ( https://twitter.com/sweet_cv )
 
 LinkedIn ( https://www.linkedin.com/company/sweetcv )
 
-© 2019 SweetCV. All rights reserved.
+© {{year}} SweetCV. All rights reserved.

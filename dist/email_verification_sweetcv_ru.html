@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Ласкаво просимо у SweetCV, {{user.displayName}}!</title>
+    <title>Добро пожаловать в SweetCV, {{user.displayName}}!</title>
     <style type="text/css" rel="stylesheet" media="all">
     /* Base ------------------------------ */
     
@@ -451,7 +451,7 @@
     </style>
   </head>
   <body yahoo="fix">
-    <span class="preheader">Дякуємо, що вирішили спробувати SweetCV. Впевнені наш сервіс допоможе вам підготувати бездоганне резюме!</span>
+    <span class="preheader">Спасибо, что решили попробовать SweetCV. Пожалуйста, ознакомьтесь с инструкциями чтобы подтвердить регистрацию.</span>
     <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
       <tr>
         <td align="center">
@@ -470,8 +470,9 @@
                   <!-- Body content -->
                   <tr>
                     <td class="content-cell">
-                      <h1>👋 Ласкаво просимо, {{user.displayName}}!</h1>
-                      <p>Дякуємо, що вирішили скористатися SweetCV. Впевнені наш сервіс допоможе вам підготувати бездоганне резюме!</p>
+                      <h1>👋 Добро пожаловать, {{user.displayName}}!</h1>
+                      <p>Спасибо, что решили воспользоваться SweetCV. Уверены наш сервис поможет Вам подготовить отличное резюме!</p>
+                      <p>Чтобы продолжить регистрацию, пожалуйста, подтвердите свой Email:</p>
                       <!-- Action -->
                       <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
@@ -484,7 +485,7 @@
                                   <table border="0" cellspacing="0" cellpadding="0">
                                     <tr>
                                       <td>
-                                        <a href="{{newResumeUrl}}" class="button button--green" target="_blank">Створити резюме зараз</a>
+                                        <a href="{{verificationUrl}}" class="button button--" target="_blank">Подтвердить мой Email</a>
                                       </td>
                                     </tr>
                                   </table>
@@ -494,9 +495,18 @@
                           </td>
                         </tr>
                       </table>
-                      <p>Якщо у вас виникнуть питання в процесі використання сервісу, звертайтеся до нас за допомогою за адресою <a href="mailto:support@sweetcv.com">support@sweetcv.com</a></p>
-                      <p>Чудового вам дня!</p>
+                      <p>Если у Вас возникнут сложности при регистрации или в процессе использования сервиса, не стесняйтесь обратиться к нам за помощью по адресу <a href="mailto:support@sweetcv.com">support@sweetcv.com</a></p>
+                      <p>Хорошего Вам дня!</p>
                       <p><b>Команда SweetCV</b></p>
+                      <!-- Sub copy -->
+                      <table class="body-sub">
+                        <tr>
+                          <td>
+                            <p class="sub">Если у Вас возникли проблемы с кнопкой выше, просто скопируйте следующую ссылку и вставьте ее в браузере.</p>
+                            <p class="sub">{{verificationUrl}}</p>
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
@@ -510,7 +520,7 @@
                       <table class="social" align="center" width="570" cellpadding="0" cellspacing="0">
                         <tr>
                           <td class="align-center">
-                            <a href="https://www.facebook.com/sweetcv.ua">
+                            <a href="https://www.facebook.com/sweetcv.builder">
                               <img src="{{siteUrl}}/assets/email-images/facebook_circle.png" height="25" alt="Facebook" class="social_icon">
                             </a>
                           </td>
@@ -526,7 +536,7 @@
                           </td>
                         </tr>
                       </table>
-                      <p class="sub align-center">&copy; {{year}} SweetCV. Усі права захищені законом.</p>
+                      <p class="sub align-center">&copy; {{year}} SweetCV. Все права защищены.</p>
                     </td>
                   </tr>
                 </table>

@@ -8,14 +8,18 @@ SweetCV ( https://sweetcv.com )
 
 Thanks for trying SweetCV. We’re thrilled to have you on board!
 
-Start building your job-winning resume by clicking the button below:
+To get the most out of SweetCV, please verify your email using the button below:
 
-Create Resume Now ( {{ newResumeUrl }} )
+Verify Your Email ( {{ verificationUrl }} )
 
-If you have any questions or need any help, please don't hesitate to reach us out by email to support@sweetcv.com.
+If you're having trouble getting started, feel free to email our customer success team ( support@sweetcv.com ).
 
 Thanks,
 The SweetCV Team
+
+If you’re having trouble with the button above, copy and paste the URL below into your web browser.
+
+{{verificationUrl}}
 
 Facebook ( https://www.facebook.com/sweetcv.en )
 

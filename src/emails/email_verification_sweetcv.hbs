@@ -19,20 +19,22 @@ preheader: "Thanks for trying out <%= product_name %>. We’ve pulled together s
             <h1>👋 Welcome, \{{user.displayName}}!</h1>
             <p>Thanks for trying {{product_name}}. We’re thrilled to have you on board!</p>
 
-            <p>Start building your job-winning resume by clicking the button below:</p>
+            <p>To get the most out of {{product_name}}, please verify your email using the button below:</p>
 
             <!-- Action -->
             <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
               <tr>
                 <td align="center">
-                  {{> button color="green" label="Create Resume Now" target_url="{{newResumeUrl}}" }}
+                  {{> button label="Verify Your Email" target_url="{{verificationUrl}}" }}
                 </td>
               </tr>
             </table>
 
-            <p>If you have any questions or need any help, please don't hesitate to reach us out by email to <a href="mailto:{{support_email}}">{{support_email}}</a>.</p>
+            <p>If you're having trouble getting started, feel free to <a href="mailto:{{support_email}}">email our customer success team</a>.</p>
 
             <p>Thanks,<br><b>The {{product_name}} Team</b></p>
+
+            {{> button_trouble action_url="{{verificationUrl}}" }}
 
           </td>
         </tr>
